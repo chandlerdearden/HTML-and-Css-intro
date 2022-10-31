@@ -1,0 +1,46 @@
+body {
+    background-color: aqua;
+}
+.Header {
+    display: flex;
+    height: 20vh;
+    background-color: darkgray;
+    justify-content:  center;
+    align-items: center;
+    Font-Size: 40px;
+    margin: 1vh;
+    border-bottom: solid black ;
+}
+div {
+    display: flex;
+    flex-direction: column;
+
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.foodPics {
+    display: flex;
+    justify-content: space-around;
+    background-color: darkgray;
+    height: 30vh;
+    border-bottom: black solid ;
+
+}
+img {
+    width: 20vw;
+    border: solid
+}
+img:hover {
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+.foodName {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
